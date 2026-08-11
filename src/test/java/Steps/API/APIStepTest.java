@@ -3,7 +3,7 @@ package Steps.API;
 import configurations.Driver.DriverManager;
 import configurations.Util.GenericUtil;
 import manager.API.APIManager.APIManager;
-import org.testng.Assert;
+import org.testng.*;
 import org.testng.annotations.Test;
 import java.util.Arrays;
 import java.util.HashSet;
@@ -16,8 +16,7 @@ public class APIStepTest {
         boolean answer = false;
         DriverManager.driverInstance().initializeDriver("web", "chrome", "https://www.amazon.com/");
         answer = APIManager.getAPIManager().getAccessToken("pid");
-        answer = GenericUtil.genericUtilInstance().getSumPDFBasedOnColumnName("/Users/siteshkumarvishwakarma/Downloads/raju_poin.pdf", "Deposited Cash");
-        Assert.assertTrue(answer, "Not validated");
+       Assert.assertTrue(answer, "Not validated");
     }
 
     public static void main(String[] args) {

@@ -1574,3 +1574,7 @@ java.lang.RuntimeException: WebDriver is not initialized
 2025-11-05 17:00:24,927 INFO S.C.TestRunner [main] Stpping Appium Server!!
 2025-11-05 17:00:24,939 INFO S.C.TestRunner [main] Stpped Appium Server!!
 2025-12-26 18:42:41,605 INFO c.D.DriverManager [main] Web driver initialized for: chrome
+2026-02-14 16:23:27,018 INFO c.D.DriverManager [main] Web driver initialized for: chrome
+2026-02-14 16:23:46,493 INFO c.D.DriverManager [main] Web driver initialized for: chrome
+2026-02-14 16:31:28,992 INFO c.D.DriverManager [main] Web driver initialized for: chrome
+2026-02-14 16:34:08,163 INFO c.D.DriverManager [main] Web driver initialized for: chrome
