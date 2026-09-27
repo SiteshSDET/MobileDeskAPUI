@@ -39,7 +39,7 @@ public class Hooks {
                     if (deviceType.equalsIgnoreCase(PropertyConfig.VIRTAUL_DEVICE.toString())) {
                         GenericUtil.genericUtilInstance().getLog().info("iOS simulator setup");
                     }
-                    DriverManager.driverInstance().initializeDriver("mobile", "iOS", PropertyConfig.ANDROID_PLATFORM.toString());
+                    DriverManager.driverInstance().initializeDriver("mobile", "iOS", PropertyConfig.IOS_PLATFORM_VERSION.toString());
                     break;
                 default:
                     GenericUtil.genericUtilInstance().getLog().info("Platform name is wrong!!");

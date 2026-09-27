@@ -1578,3 +1578,71 @@ java.lang.RuntimeException: WebDriver is not initialized
 2026-02-14 16:23:46,493 INFO c.D.DriverManager [main] Web driver initialized for: chrome
 2026-02-14 16:31:28,992 INFO c.D.DriverManager [main] Web driver initialized for: chrome
 2026-02-14 16:34:08,163 INFO c.D.DriverManager [main] Web driver initialized for: chrome
+2026-08-22 12:33:04,594 INFO S.C.Hooks [TestNG-PoolService-1] Starting scenario: Launch the SwagLabs mobile Application
+2026-08-22 12:33:04,595 INFO S.C.Hooks [TestNG-PoolService-1] Platform: Android, Device: virtual
+2026-08-22 12:33:04,595 INFO c.U.GenericUtil [TestNG-PoolService-1] Emulator is Launching!
+2026-08-22 12:33:04,603 INFO c.U.GenericUtil [TestNG-PoolService-1] Emulator has been launched!
+2026-08-22 12:33:21,389 ERROR c.D.DriverManager [TestNG-PoolService-1] Failed to stop driver: web
+java.lang.RuntimeException: WebDriver is not initialized
+	at configurations.Driver.DriverManager.stopDriver(DriverManager.java:168) ~[classes/:?]
+	at Steps.Common.Hooks.stopSession(Hooks.java:61) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.20.1.jar:7.20.1]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.20.1.jar:7.20.1]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.20.1.jar:7.20.1]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.20.1.jar:7.20.1]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:47) ~[cucumber-core-7.20.1.jar:7.20.1]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.20.1.jar:7.20.1]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.20.1.jar:7.20.1]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) ~[cucumber-core-7.20.1.jar:7.20.1]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) ~[cucumber-core-7.20.1.jar:7.20.1]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:90) ~[cucumber-core-7.20.1.jar:7.20.1]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.20.1.jar:7.20.1]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135) ~[cucumber-testng-7.20.1.jar:7.20.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) ~[cucumber-core-7.20.1.jar:7.20.1]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.20.1.jar:7.20.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) ~[cucumber-core-7.20.1.jar:7.20.1]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.20.1.jar:7.20.1]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.20.1.jar:7.20.1]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80) ~[testng-7.9.0.jar:7.9.0]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+2026-08-22 12:33:21,415 INFO S.C.TestRunner [main] Stpping Appium Server!!
+2026-08-22 12:33:21,454 INFO S.C.TestRunner [main] Stpped Appium Server!!
+2026-08-22 13:15:58,847 INFO S.C.Hooks [TestNG-PoolService-1] Starting scenario: Launch the SwagLabs mobile Application
+2026-08-22 13:15:58,848 INFO S.C.Hooks [TestNG-PoolService-1] Platform: Android, Device: virtual
+2026-08-22 13:15:58,849 INFO c.U.GenericUtil [TestNG-PoolService-1] Emulator is Launching!
+2026-08-22 13:15:58,851 INFO c.U.GenericUtil [TestNG-PoolService-1] Emulator has been launched!
+2026-08-22 13:16:16,170 INFO c.D.DriverManager [TestNG-PoolService-1] Mobile driver initialized for: Android
+2026-08-22 13:16:16,621 INFO c.U.GenericUtil [TestNG-PoolService-1] <====== Available contexts are : [NATIVE_APP]=======> 
+2026-08-22 13:16:16,638 INFO S.M.AppiumTest [TestNG-PoolService-1] Launching the mobile Application
+2026-08-22 13:16:16,639 INFO S.M.AppiumTest [TestNG-PoolService-1] Launched the mobile Application
+2026-08-22 13:16:16,639 INFO S.M.AppiumTest [TestNG-PoolService-1] Launching the mobile Application and verified
+2026-08-22 13:16:22,370 INFO S.C.Hooks [TestNG-PoolService-1] Mobile driver was running and it stopped now!
+2026-08-22 13:16:22,371 INFO c.U.GenericUtil [TestNG-PoolService-1] Stopping emulator!!
+2026-08-22 13:16:22,375 INFO c.U.GenericUtil [TestNG-PoolService-1] Emulator has been stopped successfully!!
+2026-08-22 13:16:22,393 INFO S.C.TestRunner [main] Stpping Appium Server!!
+2026-08-22 13:16:22,411 INFO S.C.TestRunner [main] Stpped Appium Server!!
+2026-08-22 13:17:30,365 INFO S.C.Hooks [TestNG-PoolService-1] Starting scenario: Launch the SwagLabs mobile Application
+2026-08-22 13:17:30,366 INFO S.C.Hooks [TestNG-PoolService-1] Platform: Android, Device: virtual
+2026-08-22 13:17:30,367 INFO c.U.GenericUtil [TestNG-PoolService-1] Emulator is Launching!
+2026-08-22 13:17:30,372 INFO c.U.GenericUtil [TestNG-PoolService-1] Emulator has been launched!
+2026-08-22 13:17:47,725 INFO c.D.DriverManager [TestNG-PoolService-1] Mobile driver initialized for: Android
+2026-08-22 13:17:48,067 INFO c.U.GenericUtil [TestNG-PoolService-1] <====== Available contexts are : [NATIVE_APP]=======> 
+2026-08-22 13:17:48,082 INFO S.M.AppiumTest [TestNG-PoolService-1] Launching the mobile Application
+2026-08-22 13:17:48,083 INFO S.M.AppiumTest [TestNG-PoolService-1] Launched the mobile Application
+2026-08-22 13:17:48,083 INFO S.M.AppiumTest [TestNG-PoolService-1] Launching the mobile Application and verified
+2026-08-22 13:17:54,490 INFO S.C.Hooks [TestNG-PoolService-1] Mobile driver was running and it stopped now!
+2026-08-22 13:17:54,500 INFO c.U.GenericUtil [TestNG-PoolService-1] Stopping emulator!!
+2026-08-22 13:17:54,515 INFO c.U.GenericUtil [TestNG-PoolService-1] Emulator has been stopped successfully!!
+2026-08-22 13:17:54,582 INFO S.C.TestRunner [main] Stpping Appium Server!!
+2026-08-22 13:17:54,651 INFO S.C.TestRunner [main] Stpped Appium Server!!
